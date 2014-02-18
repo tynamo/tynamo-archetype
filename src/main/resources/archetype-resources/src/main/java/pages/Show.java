@@ -24,7 +24,7 @@ import org.tynamo.util.Utils;
  * When extending this page for customization purposes, it's better to copy & paste code than trying to use inheritance.
  *
  */
-@At("/{0}/{1}")
+@At(value = "/{0}/{1}", order = "after:Add")
 public class Show
 {
 
