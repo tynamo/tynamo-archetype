@@ -74,7 +74,8 @@ public class List
 	@SetupRender
 	void setupRender()
 	{
-		grid.reset();
+// 		commenting this out until https://issues.apache.org/jira/browse/TAP5-2462 is fixed.
+//		grid.reset();
 	}
 
 	public Object[] getShowPageContext()
